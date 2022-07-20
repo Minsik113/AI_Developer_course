@@ -1,3 +1,8 @@
+import fah_converter
+
+print(fah_converter.covert_c_to_f(3))
+
+
 def test_typehint_example(x:int, y:int):
     """_summary_
 
@@ -9,3 +14,5 @@ def test_typehint_example(x:int, y:int):
         _type_: _description_
     """    
     return x + y
+
+
